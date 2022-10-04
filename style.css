@@ -1,0 +1,83 @@
+/* Write some CSS below */
+body {
+  font-family: Overpass;
+  font-size: 22px;
+}
+
+h2, h3 {
+  font-family: chivo;
+color: black;}
+
+h1 {
+  font-family: Alkalami;
+color: #B195DB;}
+
+
+a {
+  color: #E7A3FF;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  margin: auto;
+}
+
+.banner {
+
+background-image: url(images/background.jpg);
+background-size: cover;
+background-position: center;
+padding: 150px 0px;
+text-align: center;
+}
+
+.banner p {
+	color: white;
+}
+
+.button-blue {
+  background-color: blueviolet;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: white;
+  color: blueviolet;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+.card-white {background-color: white ;box-shadow: 0 0 16px lightgrey; border-radius: 5px;
+padding: 24px; margin: 8px;}
+
+.card-white img {
+	object-fit: cover;
+	width: 100%;
+}
+
+.footer {background-color: #E3D9FC;
+padding: 8px;
+
+}
+
+  
+
+
+
+
+
